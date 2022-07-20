@@ -1,0 +1,11 @@
+.signup-form-container {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.signup-form-container>input {
+    margin: 10px auto;
+    width: 350px;
+
+}

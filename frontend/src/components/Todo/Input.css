@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input-box-container>form {
+
+    display: flex;
+    border: 2px solid grey;
+
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.input-box-container>form>input,
+textarea {
+    margin: 10px auto;
+    width: 350px;
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+    height: 45px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-container>a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-container>a:hover {
+    cursor: pointer;
+    color: blue;
+}
